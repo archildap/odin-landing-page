@@ -59,7 +59,7 @@ nav ul{
 .hero{
     display: flex;
     background:#1f2937;
-    justify-content: center;
+    justify-content: space-between;
     padding:100px 200px;
 }
 
@@ -95,14 +95,15 @@ article{
     padding-top:70px;
     padding-bottom:100px;
     margin:0 30px;
+    text-align: center;
 }
 
 .boxes{
     display: flex;
-    column-gap: 60px;
+    column-gap: 80px;
 }
 .box img{
-    width:120px;
+    width:140px;
     display: block;
     margin:0 auto;
     padding-bottom:10px;
@@ -115,4 +116,25 @@ article h2{
     color:#1f2937;
 }
 
+
+/*Testimonial*/
+
+.testimonial{
+    background:#e5e7eb;
+    padding:100px 0;
+    font-size:36px;
+    font-style:italic;
+}
+
+.testimonial p{
+    width:60%;
+    margin:0 auto;
+}
+.testimonial span{
+    display: block;
+    font-style: normal;
+    font-weight: 500;
+    padding-left: 700px;
+    color:#1f2937
+}
 
